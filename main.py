@@ -20,7 +20,7 @@ def add_numbers(num1: float, num2: float):
 
 @app.get("/complete")
 def complete_sentence(sent:str):
-    result = "Hello" + sent
+    result = "Hello "  + sent
     return {"result": result}
 
 
